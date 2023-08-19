@@ -15,7 +15,7 @@ public class Image {
 
     private String dimensions;
 
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     @JoinColumn
     private Blog blog;

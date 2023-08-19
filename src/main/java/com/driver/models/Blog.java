@@ -23,7 +23,7 @@ public class Blog {
     @CreationTimestamp
     private Date pubDate;
 
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     @JoinColumn
     private User user;
